@@ -32,11 +32,11 @@ const PostDetails = () => {
       <h2 className="my-3 text-3xl font-bold">
         Thins to see and do when visiting Japan
       </h2>
-      <p>
+      {/* <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab
         illo veritatis et quasi beatae vitae dicta sunt explicabo.
-      </p>
+      </p> */}
 
       <h2 className="my-3 text-2xl font-bold">Build camping easily.</h2>
       <p>
