@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import './styles.css';
 import img1 from '../../../public/landing-R.png';
 import img2 from '../../../public/landing-O.png';
 import img3 from '../../../public/landing-A.png';
@@ -11,10 +12,10 @@ const TopBanner = () => {
       <div className="relative pt-20 pb-96">
         <div className="flex justify-center">
           <div>
-            <Image src={img1} alt=""></Image>
+            <Image className=" roll-in-left" src={img1} alt=""></Image>
           </div>
           <div>
-            <Image src={img2} alt=""></Image>
+            <Image className=" roll-in-right" src={img2} alt=""></Image>
           </div>
         </div>
         <div className="flex justify-center pr-8">
