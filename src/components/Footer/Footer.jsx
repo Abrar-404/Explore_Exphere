@@ -17,7 +17,7 @@ const Footer = () => {
                     <p className='mt-4'>To take trivial example which us
                         <br />  ever undertakes laborious <br /> physica exercise except obsome.</p>
 
-                    <div className='flex gap-3 mt-10'>
+                    {/* <div className='flex gap-3 mt-10'>
 
                         <div className='h-[40px] w-[40px] rounded-full bg-[#414643] flex items-center justify-center hover:bg-white'>
                             <FiTwitter className='h-5 w-5 hover:text-black ' />
@@ -32,7 +32,7 @@ const Footer = () => {
                             <CiLinkedin className='h-5 w-5 hover:text-black' />
                         </div>
 
-                    </div>
+                    </div> */}
                 </div>
                 <div>
                     <span className="footer-title font-semibold">Pages</span>
