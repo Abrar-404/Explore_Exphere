@@ -23,7 +23,7 @@ const TopBanner = () => {
             <Image className=" roll-in-left" src={img3} alt=""></Image>
           </div>
           <div>
-            <Image src={img4} alt=""></Image>
+            <Image className=" roll-in-right" src={img4} alt=""></Image>
           </div>
         </div>
 
