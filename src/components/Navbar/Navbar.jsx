@@ -19,7 +19,7 @@ const Navbar = () => {
     </>
 
     return (
-      <div className="navbar fixed z-10 lg:min-w-full h-[100px] bg-white text-black">
+      <div className="navbar fixed z-10 lg:min-w-full h-[100px] backdrop-blur text-black">
         <div className="navbar-start">
           <div className="dropdown">
             <label
