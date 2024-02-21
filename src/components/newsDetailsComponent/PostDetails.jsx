@@ -29,9 +29,9 @@ const PostDetails = () => {
           </div>
         </div>
       </div>
-      {/* <h2 className="my-3 text-3xl font-bold">
+      <h2 className="my-3 text-3xl font-bold">
         Thins to see and do when visiting Japan
-      </h2> */}
+      </h2>
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab
