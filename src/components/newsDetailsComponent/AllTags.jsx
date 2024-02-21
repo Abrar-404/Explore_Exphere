@@ -19,7 +19,7 @@ const AllTags = () => {
                     <p className='p-3 bg-white hover:bg-green-400 hover:text-white text-sm font-bold rounded'>TRAVELS</p>
                 </div>
             </div>
-            {/* <div className='my-8 shadow-lg'>
+            <div className='my-8 shadow-lg'>
                 <Link href={'/destinationDetails'}>
                     <div className='h-72 rounded-xl bg-center bg-no-repeat bg-slate-400 bg-blend-multiply bg-cover' style={{ backgroundImage: 'url("https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-2.jpg")' }}>
                         <DisplayWord time='3' country='United Kingdom'></DisplayWord>
@@ -39,7 +39,7 @@ const AllTags = () => {
                 </div>
             </div>
         </div>
-    ); */}
+    );
 };
 
 export default AllTags;
