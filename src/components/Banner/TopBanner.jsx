@@ -29,7 +29,7 @@ const TopBanner = () => {
 
         <div className="absolute top-24 left-64">
           <div>
-            <Image className="bounce-in-top" src={img5} alt=""></Image>
+            <Image className="slide-in-elliptic-top-fwd" src={img5} alt=""></Image>
           </div>
         </div>
       </div>
