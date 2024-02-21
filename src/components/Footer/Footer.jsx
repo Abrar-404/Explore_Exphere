@@ -34,7 +34,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                {/* <div>
+                <div>
                     <span className="footer-title font-semibold">Pages</span>
                     <Link href='/about' className=" hover:text-green-500 mt-2">About us</Link>
                     <Link href='/blog' className=" hover:text-green-500 mt-2">Community Blog</Link>
@@ -42,7 +42,7 @@ const Footer = () => {
                     <Link href='/policy' className=" hover:text-green-500 mt-2">Privacy Policy</Link>
                     <Link href='/contact' className=" hover:text-green-500 mt-2">Contact us</Link>
 
-                </div> */}
+                </div>
                 <div>
                     <span className="footer-title font-semibold">Newsletter</span>
                     <p className='mt-3 mb-3'>Subscribe our newsletter to get <br /> our latest  update & news.</p>
