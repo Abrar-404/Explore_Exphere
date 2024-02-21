@@ -20,7 +20,7 @@ const TopBanner = () => {
         </div>
         <div className="flex justify-center pr-8">
           <div>
-            <Image src={img3} alt=""></Image>
+            <Image className=" roll-in-left" src={img3} alt=""></Image>
           </div>
           <div>
             <Image src={img4} alt=""></Image>
