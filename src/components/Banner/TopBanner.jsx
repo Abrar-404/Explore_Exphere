@@ -27,9 +27,13 @@ const TopBanner = () => {
           </div>
         </div>
 
-        <div className="absolute top-24 left-64">
+        <div className="absolute lg:top-24 lg:left-64">
           <div>
-            <Image className="slide-in-elliptic-top-fwd" src={img5} alt=""></Image>
+            <Image
+              className="slide-in-elliptic-top-fwd"
+              src={img5}
+              alt=""
+            ></Image>
           </div>
         </div>
       </div>
