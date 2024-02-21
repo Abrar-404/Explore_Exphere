@@ -6,7 +6,7 @@ import { BiPhoneCall } from 'react-icons/bi';
 const AllTags = () => {
     return (
         <div>
-            {/* <div className='bg-gray-100 p-8 shadow-lg'>
+            <div className='bg-gray-100 p-8 shadow-lg'>
                 <p className='text-xl font-bold mb-7'><span className='border-b-4 border-green-600 pb-3'>All</span> Categories</p>
                 <div className='flex gap-5 mb-4'>
                     <p className='p-3 bg-white hover:bg-green-400 hover:text-white text-sm font-bold rounded'>ADVENTURE</p>
@@ -18,7 +18,7 @@ const AllTags = () => {
                     <p className='p-3 bg-white hover:bg-green-400 hover:text-white text-sm font-bold rounded'>SOLAR ENERGY</p>
                     <p className='p-3 bg-white hover:bg-green-400 hover:text-white text-sm font-bold rounded'>TRAVELS</p>
                 </div>
-            </div> */}
+            </div>
             <div className='my-8 shadow-lg'>
                 <Link href={'/destinationDetails'}>
                     <div className='h-72 rounded-xl bg-center bg-no-repeat bg-slate-400 bg-blend-multiply bg-cover' style={{ backgroundImage: 'url("https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-2.jpg")' }}>
