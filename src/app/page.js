@@ -10,15 +10,17 @@ import PopularActivities from '@/components/PopularActivities/PopularActivities'
 import FeaturedTours from '@/components/FeaturedTours/FeaturedTours'
 import Ready from '@/components/Ready/Ready'
 import Adventure from '@/components/Adventure/Adventure';
+import TopBanner from '@/components/Banner/TopBanner';
 
 export default function Home() {
 
   return (
     <main>
-     
-     <Banner/>
-     <Adventure></Adventure>
-     <About/>
+
+      <TopBanner />
+      <Banner />
+      <Adventure></Adventure>
+      <About />
       <DestinationList></DestinationList>
       <Achievements></Achievements>
       <RecentNews></RecentNews>
@@ -26,8 +28,8 @@ export default function Home() {
       {/* popular activities */}
       <PopularActivities></PopularActivities>
       <FeaturedTours></FeaturedTours>
-      
-      
+
+
       <Ready></Ready>
 
 
