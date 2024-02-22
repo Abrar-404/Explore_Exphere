@@ -1,4 +1,4 @@
-.adventure-title::before{
+/* .adventure-title::before{
     content: "";
     position: absolute;
     height: 3px;
@@ -15,4 +15,4 @@
 
 .slick-list {
     margin: 0 -10px;
-}
+} */
