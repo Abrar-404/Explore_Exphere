@@ -5,7 +5,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="my-28">
-      {/* <div className="max-w-screen-xl mx-auto px-3 md:px-0">
+      <div className="max-w-screen-xl mx-auto px-3 md:px-0">
         <div className="md:flex items-center gap-5">
           <div className="md:w-1/2 md:ms-20 mb-10 md:mb0">
             <div className="relative">
@@ -67,7 +67,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
