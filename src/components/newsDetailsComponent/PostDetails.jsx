@@ -127,7 +127,7 @@ const PostDetails = () => {
           placeholder="Write your comment"
           className="textarea bg-[#F3F8F6] mt-6 textarea-lg w-full"
         ></textarea>
-        <div className="flex items-center gap-2 my-4">
+        {/* <div className="flex items-center gap-2 my-4">
           <input
             required
             type="checkbox"
@@ -140,7 +140,7 @@ const PostDetails = () => {
         </div>
         <button className="btn bg-[#72B357] text-white hover:bg-[#73c051]">
           Post comment
-        </button>
+        </button> */}
       </form>
     </div>
   );
