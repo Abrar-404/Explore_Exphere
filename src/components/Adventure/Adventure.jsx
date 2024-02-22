@@ -7,27 +7,27 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
-// function SampleNextArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{
-//         ...style,
-//         display: "block",
-//         background: "red",
-//         height: "40px",
-//         width: "40px",
-//         borderRadius: "100px",
-//         display: "grid",
-//         placeItems: "center",
-//         color: "white",
-//         zIndex: 1,
-//       }}
-//       onClick={onClick}
-//     />
-//   );
-// }
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "red",
+        height: "40px",
+        width: "40px",
+        borderRadius: "100px",
+        display: "grid",
+        placeItems: "center",
+        color: "white",
+        zIndex: 1,
+      }}
+      onClick={onClick}
+    />
+  );
+}
 
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
