@@ -81,7 +81,7 @@ const BookingSlider = () => {
   return (
     <div className="">
       <>
-        {/* <Swiper
+        <Swiper
           slidesPerView={1}
           spaceBetween={10}
           pagination={{
@@ -110,7 +110,7 @@ const BookingSlider = () => {
               ></Image>
             </SwiperSlide>
           ))}
-        </Swiper> */}
+        </Swiper>
       </>
     </div>
   );
