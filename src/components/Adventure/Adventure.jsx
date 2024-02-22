@@ -29,27 +29,27 @@ function SampleNextArrow(props) {
   );
 }
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "black",
-        height: "40px",
-        width: "40px",
-        borderRadius: "100px",
-        display: "grid",
-        placeItems: "center",
-        color: "white",
-        zIndex: 1
-      }}
-      onClick={onClick}
-    />
-  );
-}
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{
+//         ...style,
+//         display: "block",
+//         background: "black",
+//         height: "40px",
+//         width: "40px",
+//         borderRadius: "100px",
+//         display: "grid",
+//         placeItems: "center",
+//         color: "white",
+//         zIndex: 1
+//       }}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
 const Adventure = () => {
   const imageData = [
