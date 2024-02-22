@@ -12,7 +12,7 @@ import Link from "next/link";
 const Banner = () => {
   return (
     <div>
-      <Swiper
+      {/* <Swiper
         navigation={true}
         autoplay={{ delay: 3000 }}
         loop={true}
@@ -103,7 +103,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
       <>
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-10 bg-white text-black rounded shadow-xl lg:mx-12  lg:py-8 py-3 px-3 lg:px-9">
           <div className="space-y-3">
