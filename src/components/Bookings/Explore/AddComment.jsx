@@ -8,7 +8,7 @@ const AddComment = () => {
       <p className="text-[#5e5a5a]">
         Your email address will not be published.
       </p>
-      {/* <div className="flex justify-between">
+      <div className="flex justify-between">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-4">
           <CommentRating></CommentRating>
         </div>
@@ -18,7 +18,7 @@ const AddComment = () => {
             <p className="text-[#5e5a5a]">Average rating</p>
           </div>
         </div>
-      </div> */}
+      </div>
       <form className="mt-7">
         <div className="flex gap-5">
           <input
