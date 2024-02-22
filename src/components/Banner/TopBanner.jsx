@@ -29,7 +29,7 @@ const TopBanner = () => {
 
         <div className="absolute lg:top-24 lg:left-64 md:top-24 md:left-0">
           <div className="">
-            <Image className="scale-in-center" src={img5} alt=""></Image>
+            {/* <Image className="scale-in-center" src={img5} alt=""></Image> */}
           </div>
         </div>
       </div>
