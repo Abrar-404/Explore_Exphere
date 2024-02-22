@@ -38,12 +38,12 @@ const PostDetails = () => {
         illo veritatis et quasi beatae vitae dicta sunt explicabo.
       </p>
 
-      {/* <h2 className="my-3 text-2xl font-bold">Build camping easily.</h2>
+      <h2 className="my-3 text-2xl font-bold">Build camping easily.</h2>
       <p>
         Less time collecting water means more time in class. Clean water and
         proper toilets at school means teenage girls dont have to stay home for
         a week out of every month.
-      </p> */}
+      </p>
 
       <PostQuote />
       <h2 className="my-3 text-2xl font-bold">
