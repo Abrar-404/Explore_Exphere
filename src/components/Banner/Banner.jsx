@@ -105,7 +105,7 @@ const Banner = () => {
         </SwiperSlide>
       </Swiper>
       <>
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-10 bg-white text-black rounded shadow-xl lg:mx-12  lg:py-8 py-3 px-3 lg:px-9">
+        {/* <div className="grid grid-cols-2 lg:grid-cols-5 gap-10 bg-white text-black rounded shadow-xl lg:mx-12  lg:py-8 py-3 px-3 lg:px-9">
           <div className="space-y-3">
             <div className="flex gap-3 items-center border-b-2 border-gray-400 pb-3">
               <Image
@@ -179,7 +179,7 @@ const Banner = () => {
           <Link className="" href={'/bookings'}>
             <button className="outline-none rounded-md px-3 bg-green-600 text-white font-bold h-16 w-36">Search</button>
           </Link>
-        </div>
+        </div> */}
       </>
     </div>
   );
