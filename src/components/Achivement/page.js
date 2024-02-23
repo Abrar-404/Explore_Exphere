@@ -66,7 +66,7 @@ const Achievements = () => {
                             <Image width={64} height={64} className='w-16 rounded-full border-4' src="https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
                         </div>
                         <div>
-                            <p>Jesica Brown</p>
+                            <p>Sahil Abrar</p>
                             <p>Founder & CEO</p>
                         </div>
                     </div>
