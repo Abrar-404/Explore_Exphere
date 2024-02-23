@@ -5,6 +5,8 @@ import { BiUserCircle } from "react-icons/bi";
 import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
 import {usePathname} from 'next/navigation'
 import Hamburger from 'hamburger-react';
+import logo from '../../../public/logo.png'
+import Image from 'next/image'
 const Navbar = () => {
 
     const path = usePathname();
@@ -38,7 +40,11 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-          <a className="btn btn-ghost normal-case text-2xl font-bold">Lets Go</a>
+          {/* <a className="btn btn-ghost normal-case text-2xl font-bold">Lets Go</a> */}
+          <div className="w-[60px] h-[60px] flex items-center">
+            <Image src={logo} alt=''></Image>
+            <span className="btn btn-ghost normal-case text-xl font-bold">Explore Exphere</span>
+          </div>
         </div>
         {/* <div className="navbar-center hidden lg:flex"> */}
         <div className="navbar  hidden lg:flex justify-end ml-[500px]  w-full text-right ">
