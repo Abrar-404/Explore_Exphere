@@ -12,7 +12,9 @@ import Ready from '@/components/Ready/Ready'
 import Adventure from '@/components/Adventure/Adventure';
 import TopBanner from '@/components/Banner/TopBanner';
 
+
 export default function Home() {
+
 
   return (
     <main>

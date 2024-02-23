@@ -4,6 +4,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer/Footer";
 import ScrollToTop from "react-scroll-to-top";
+import './scroll.css'
 
 const inter = Inter({ subsets: ["latin"] });
 
