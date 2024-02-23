@@ -36,7 +36,7 @@ const Achievements = () => {
                                     delay={0}
                                 ></CountUp>
                             )}{' '}
-                             <span className="text-5xl font-bold mt-4">+</span>
+                             <span className="text-5xl font-bold">+</span>
                             <p className='text-gray-500 text-xl'>Happy Traveler</p>
                         </div>
                         <div className='text-center border py-10 px-16 space-y-5  rounded-md shadow-xl'>
