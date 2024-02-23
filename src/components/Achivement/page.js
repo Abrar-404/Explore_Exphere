@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Rating } from '@smastrom/react-rating';
 import { FaStar } from 'react-icons/fa6';
+import ScrollTrigger from 'react-scroll-trigger';
 import Image from 'next/image';
 
 const Achievements = () => {
