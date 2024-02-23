@@ -9,6 +9,7 @@ import { FaStar } from 'react-icons/fa6';
 import ScrollTrigger from 'react-scroll-trigger';
 import Image from 'next/image';
 import { useState } from 'react';
+import CountUp from 'react-countup';
 
 const Achievements = () => {
     const [counterOn, setCounterOn] = useState(false);
@@ -25,7 +26,16 @@ const Achievements = () => {
                 <div className='lg:flex justify-between'>
                     <div className='text-center border py-10 px-16 space-y-5 rounded-md shadow-xl'>
                         <Image width={125}   height={125} className='border rounded-full p-4 bg-green-100 text-green-300 transition ease-in-out delay-150 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/5730/5730094.png" alt="" />
-                        <span className='text-5xl font-bold mt-4'>3500+</span>
+                        {/* <span className='text-5xl font-bold mt-4'>3500+</span> */}
+                         {counterOn && (
+                  <CountUp
+                    start={1000}
+                    end={2347}
+                    duration={2.75}
+                    className="font-script text-orange-400 font-bold mx-auto"
+                    delay={0}
+                  ></CountUp>
+                )}{' '}
                         <p className='text-gray-500 text-xl'>Happy Traveler</p>
                     </div>
                     <div className='text-center border py-10 px-16 space-y-5  rounded-md shadow-xl'>
