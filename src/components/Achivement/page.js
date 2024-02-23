@@ -55,7 +55,16 @@ const Achievements = () => {
                         </div>
                         <div className='text-center border py-10 px-16 space-y-5 rounded-md shadow-xl'>
                             <Image width={125} height={125} className='border rounded-full p-4 bg-green-100 text-green-300 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/2190/2190548.png" alt="" />
-                            <span className='text-5xl font-bold mt-4'>99.5%</span>
+                             {counterOn && (
+                                <CountUp
+                                    start={70}
+                                    end={95}
+                                    duration={2.75}
+                                    className='text-5xl font-bold mt-4'
+                                    delay={0}
+                                ></CountUp>
+                            )}{' '}
+                             <span className="text-5xl font-bold">%</span>
                             <p className='text-gray-500 text-xl'>Positive Review</p>
                         </div>
                         <div className='text-center border py-10 px-16 space-y-5 rounded-md shadow-xl'>
