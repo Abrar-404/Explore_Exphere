@@ -25,7 +25,7 @@ const Achievements = () => {
                     </div>
                     <div className='lg:flex justify-between'>
                         <div className='text-center border py-10 px-16 space-y-5 rounded-md shadow-xl'>
-                            <Image width={125} height={125} className='border rounded-full p-4 bg-green-100 text-green-300 transition ease-in-out delay-150 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/5730/5730094.png" alt="" />
+                            <Image width={125} height={125} className='border rounded-full p-4 bg-green-100 ml-4 text-green-300 transition ease-in-out delay-150 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/5730/5730094.png" alt="" />
                             {/* <span className='text-5xl font-bold mt-4'>3500+</span> */}
                             {counterOn && (
                                 <CountUp
@@ -36,12 +36,21 @@ const Achievements = () => {
                                     delay={0}
                                 ></CountUp>
                             )}{' '}
-                            <span className="text-5xl font-bold mt-4">+</span>
+                             <span className="text-5xl font-bold mt-4">+</span>
                             <p className='text-gray-500 text-xl'>Happy Traveler</p>
                         </div>
                         <div className='text-center border py-10 px-16 space-y-5  rounded-md shadow-xl'>
-                            <Image width={125} height={125} className='border rounded-full p-4 bg-green-100 text-green-300 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/2224/2224886.png" alt="" />
-                            <span className='text-5xl font-bold mt-4'>1650+</span>
+                            <Image width={125} height={125} className='border rounded-full p-4 bg-green-100 text-green-300 ml-4 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/2224/2224886.png" alt="" />
+                            {counterOn && (
+                                <CountUp
+                                    start={1000}
+                                    end={1650}
+                                    duration={2.75}
+                                    className='text-5xl font-bold mt-4'
+                                    delay={0}
+                                ></CountUp>
+                            )}{' '}
+                            <span className="text-5xl font-bold">+</span>
                             <p className='text-gray-500 text-xl'>Total Success</p>
                         </div>
                         <div className='text-center border py-10 px-16 space-y-5 rounded-md shadow-xl'>
