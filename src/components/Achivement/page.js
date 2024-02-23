@@ -8,8 +8,10 @@ import { Rating } from '@smastrom/react-rating';
 import { FaStar } from 'react-icons/fa6';
 import ScrollTrigger from 'react-scroll-trigger';
 import Image from 'next/image';
+import { useState } from 'react';
 
 const Achievements = () => {
+    const [counterOn, setCounterOn] = useState(false);
     return (
         <div className='max-w-7xl mx-auto my-20'>
             <div className=''>
