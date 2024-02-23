@@ -14,6 +14,10 @@ const Achievements = () => {
     const [counterOn, setCounterOn] = useState(false);
     return (
         <div className='max-w-7xl mx-auto my-20'>
+            <ScrollTrigger
+                onEnter={() => setCounterOn(true)}
+                onExit={() => setCounterOn(false)}
+            >
             <div className=''>
                 <div className='text-center'>
                     <h1 className='lg:text-8xl text-2xl font-bold tracking-widest mb-5'>ACHIEVEMENTS</h1>
@@ -75,6 +79,7 @@ const Achievements = () => {
                     </div>
                 </div>
             </div>
+            </ScrollTrigger>
         </div>
     );
 };
