@@ -9,7 +9,7 @@ import img5 from '../../../public/landing-slider-img-1.png';
 const TopBanner = () => {
   return (
     <div>
-      <div className="border-2 border-red-600 lg:max-w-[600px] md:max-w-[600px] max-w-[400px] mx-auto justify-center flex">
+      <div className=" lg:max-w-[600px] md:max-w-[600px] max-w-[400px] mx-auto justify-center flex">
         <div className="relative pt-20 pb-96">
           <div className="flex justify-center">
             <div>
