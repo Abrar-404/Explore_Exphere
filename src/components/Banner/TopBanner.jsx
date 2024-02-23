@@ -35,7 +35,7 @@ const TopBanner = () => {
             </div>
           </div>
 
-           <div className="absolute lg:top-[600px] lg:left-[-52px] md:top-[600px] md:left-[-80px] top-[110px] left-[31px]">
+          <div className="absolute lg:top-[600px] lg:left-[-52px] md:top-[600px] md:left-[-80px] top-[450px] left-[31px]">
             <div className="lg:w-[700px] lg:h-[800px] md:w-[700px] md:h-[700px] w-[300px] h-[300px]">
               <Image className="scale-in-center" src={img6} alt=""></Image>
             </div>
