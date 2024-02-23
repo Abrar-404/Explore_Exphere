@@ -5,6 +5,7 @@ import img2 from '../../../public/landing-O.png';
 import img3 from '../../../public/landing-A.png';
 import img4 from '../../../public/landing-M.png';
 import img5 from '../../../public/landing-slider-img-1.png';
+import img6 from '../../../public/landing-slider-img-3.png';
 
 const TopBanner = () => {
   return (
