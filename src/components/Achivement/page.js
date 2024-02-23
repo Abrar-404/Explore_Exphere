@@ -104,7 +104,7 @@ const Achievements = () => {
                                 <FaStar />
                                 <FaStar />
                             </div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa cupiditate asperiores voluptatum voluptatem nisi minus incidunt laborum fugiat non eos?</p>
+                            <p>Find the luxury with the vibrant sceneries. Explore Exphere offers you the most delegant and exciting offerings to see the world beauty with exciting tour packages.</p>
                         </div>
                         <div className='flex justify-center gap-5 items-center pt-10'>
                             <div className='border-4 border-green-700 rounded-full'>
