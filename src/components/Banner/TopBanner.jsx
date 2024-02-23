@@ -9,7 +9,7 @@ import img5 from '../../../public/landing-slider-img-1.png';
 const TopBanner = () => {
   return (
     <div>
-      <div className="border-2 border-red-600 max-w-[600px] mx-auto justify-center flex">
+      <div className="border-2 border-red-600 lg:max-w-[600px] md:max-w-[600px] max-w-[400px] mx-auto justify-center flex">
         <div className="relative pt-20 pb-96">
           <div className="flex justify-center">
             <div>
@@ -28,8 +28,8 @@ const TopBanner = () => {
             </div>
           </div>
 
-          <div className="absolute lg:top-22 lg:left-[-100px] md:top-24 md:left-[-98px]">
-            <div className="w-[900px] h-[800px]">
+          <div className="absolute lg:top-22 lg:left-[-100px] md:top-24 md:left-[-98px] top-2">
+            <div className="lg:w-[900px] lg:h-[800px] md:w-[900px] md:h-[800px] w-[400px] h-[500px]">
               <Image className="scale-in-center" src={img5} alt=""></Image>
             </div>
           </div>
