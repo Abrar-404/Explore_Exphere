@@ -10,7 +10,7 @@ const CompanyIntro = () => {
                     <p className=' font-bold text-white text-lg p-6'>Gowilds is providing the best solution by our experts</p>
                 </div>
             </div>
-            <div className='w-full lg:w-1/2'>
+            {/* <div className='w-full lg:w-1/2'>
                 <div className='space-y-8'>
                     <span className='text-green-500 bg-green-100 border px-4 py-2 rounded font-bold'>Company Introduction</span>
                     <h1 className='lg:text-5xl text-2xl font-bold my-4'>Great opportunity for<br /> adventure & travels</h1>
@@ -34,7 +34,7 @@ const CompanyIntro = () => {
                     </div>
                     <button className='border px-5 py-4 bg-green-600 text-white font-bold rounded'>Discover More</button>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
