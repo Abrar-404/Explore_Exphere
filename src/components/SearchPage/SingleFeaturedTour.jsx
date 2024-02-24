@@ -25,7 +25,7 @@ const SingleFeaturedTour = ({ item }) => {
                 <p className='text-xl font-bold'>{title}</p>
                 <p className='inline-flex justify-center items-center gap-2'><FaLocationDot /> {location}</p>
                 <br />
-                {/* <p className='inline-flex justify-center items-center gap-2'><FaCircleDollarToSlot /> From ${price}</p> */}
+                <p className='inline-flex justify-center items-center gap-2'><FaCircleDollarToSlot /> From ${price}</p>
                 <hr />
                 <div className='flex justify-between'>
                     <div className='flex justify-between gap-3'>
