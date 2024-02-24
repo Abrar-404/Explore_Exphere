@@ -18,7 +18,7 @@ import Link from 'next/link';
 const PopularActivities = () => {
   return (
     <div>
-      {/* <section>
+      <section>
         <div
           className="w-[96%]  border mx-auto bg-cover bg-center rounded-2xl "
           style={{
@@ -187,7 +187,7 @@ const PopularActivities = () => {
             </Link>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 };
