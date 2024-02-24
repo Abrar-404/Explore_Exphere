@@ -22,7 +22,7 @@ const RecentNews = () => {
                 <button className='px-2 py-1 font-bold text-white bg-green-500 border rounded lg:px-5 lg:py-4'>View More</button>
             </div>
             <div>
-                {/* <Swiper
+                <Swiper
                     // slidesPerView={3}
                     // spaceBetween={30}
                     freeMode={true}
@@ -53,7 +53,7 @@ const RecentNews = () => {
                         )
                     }
 
-                </Swiper> */}
+                </Swiper>
             </div>
         </div >
     );
