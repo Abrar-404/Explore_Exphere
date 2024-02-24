@@ -180,11 +180,11 @@ const PopularActivities = () => {
                 </h3>
               </div>
             </div>
-            {/* <Link href={'/searchPage'}>
+            <Link href={'/searchPage'}>
               <button className="px-8 py-5 rounded-xl font-bold bg-white text-black hover:bg-[#e5f1e5]">
                 Explore More
               </button>
-            </Link> */}
+            </Link>
           </div>
         </div>
       </section>
