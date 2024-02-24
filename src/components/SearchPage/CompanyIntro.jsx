@@ -6,9 +6,9 @@ const CompanyIntro = () => {
         <div className='max-w-7xl mx-auto lg:flex gap-10 my-10'>
             <div className='w-full lg:w-1/2 relative'>
                 <Image width={1280} height={600} className='w-full h-[600px] rounded' src="https://cdn.pixabay.com/photo/2019/08/12/10/03/backpacking-4400872_640.jpg" alt="" />
-                {/* <div className='bg-green-500 h-32 w-1/2 absolute bottom-0 text-center'>
+                <div className='bg-green-500 h-32 w-1/2 absolute bottom-0 text-center'>
                     <p className=' font-bold text-white text-lg p-6'>Gowilds is providing the best solution by our experts</p>
-                </div> */}
+                </div>
             </div>
             <div className='w-full lg:w-1/2'>
                 <div className='space-y-8'>
