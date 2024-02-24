@@ -7,7 +7,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="">
-      <div
+      {/* <div
         className="text-white bg-center bg-no-repeat bg-stone-500 bg-blend-multiply bg-cover lg:h-[450px] h-[300px]"
         style={{
           backgroundImage:
@@ -20,7 +20,7 @@ const page = () => {
           </p>
           <p className="">Home / Adventure</p>
         </div>
-      </div>
+      </div> */}
       <div className="lg:flex py-20 max-w-7xl mx-auto">
         <div className="lg:w-2/3 p-2">
           <PostDetails />
