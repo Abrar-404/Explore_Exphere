@@ -29,7 +29,7 @@ const CompanyIntro = () => {
                         <Image width={96} height={96} className='w-24 rounded-full border-8' src="https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
                     </div>
                     <div>
-                        <p className='font-bold text-xl'>Jesica Brown</p>
+                        <p className='font-bold text-xl'>Sahil Abrar</p>
                         <p>Founder & CEO</p>
                     </div>
                     <button className='border px-5 py-4 bg-green-600 text-white font-bold rounded'>Discover More</button>
