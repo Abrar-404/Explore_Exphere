@@ -14,7 +14,7 @@ const ExploreWorld = () => {
                         <div className='flex gap-3 items-center border-b-2 border-gray-400 pb-3'>
                             <Image width={48} height={48} className='w-12' src="https://cdn-icons-png.flaticon.com/128/3037/3037818.png" alt="" />
                             <div>
-                                <p className='text-gray-500'>Destinations</p>
+                                {/* <p className='text-gray-500'>Destinations</p> */}
                                 <p className='font-bold'>Locations</p>
                             </div>
                             <select name=">" id="">
