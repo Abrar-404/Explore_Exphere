@@ -15,13 +15,13 @@ const SingleFeaturedTour = ({ item }) => {
                 </div>
             </div>
             <div className='bg-white space-y-3 my-6'>
-                <div className='flex gap-1 pb-3 text-yellow-500'>
+                {/* <div className='flex gap-1 pb-3 text-yellow-500'>
                     <FaStar />
                     <FaStar />
                     <FaStar />
                     <FaStar />
                     <FaStar />
-                </div>
+                </div> */}
                 <p className='text-xl font-bold'>{title}</p>
                 <p className='inline-flex justify-center items-center gap-2'><FaLocationDot /> {location}</p>
                 <br />
