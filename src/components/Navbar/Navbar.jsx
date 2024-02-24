@@ -45,7 +45,6 @@ const Navbar = () => {
             <span className="btn btn-ghost normal-case text-xl font-bold">Explore Exphere</span>
           </div>
         </div>
-        {/* <div className="navbar-center hidden lg:flex"> */}
         <div className="navbar  hidden lg:flex justify-end ml-[500px]  w-full text-right ">
           <ul className="menu menu-horizontal  px-1 ">{navLink}</ul>
         </div>
