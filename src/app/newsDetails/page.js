@@ -18,7 +18,7 @@ const page = () => {
           <p className="text-3xl lg:text-5xl font-bold pb-4 pt-10">
             Things To See And Do When Visiting Japan
           </p>
-          <p className="">Home / Adventure</p>
+          {/* <p className="">Home / Adventure</p> */}
         </div>
       </div>
       <div className="lg:flex py-20 max-w-7xl mx-auto">
