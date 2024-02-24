@@ -29,7 +29,7 @@ const SingleFeaturedTour = ({ item }) => {
                 <hr />
                 <div className='flex justify-between'>
                     <div className='flex justify-between gap-3'>
-                        <p className='inline-flex justify-center items-center gap-2'><AiOutlineFieldTime /> {days} Days</p>
+                        {/* <p className='inline-flex justify-center items-center gap-2'><AiOutlineFieldTime /> {days} Days</p> */}
                         <p className='inline-flex justify-center items-center gap-2'><FaUserFriends /> {guests}</p>
                     </div>
                     <p>Explore More...</p>
