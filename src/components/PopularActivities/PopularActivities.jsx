@@ -23,13 +23,7 @@ const PopularActivities = () => {
 
                     <div className='backdrop-brightness-50 text-white h-full w-full   rounded-2xl py-24'>
 
-                        {/* title and subtitle */}
-                        {/* <div className='text-center space-y-3'>
-                            <p className='w-[300px] rounded-lg font-bold mx-auto py-2 text-center bg-[#293727] text-yellow-600'>Popular Activity</p>
-                            <h3 className='text-5xl font-bold pt-2'>
-                                Feel real adventure and very <br /> close to nature
-                            </h3>
-                        </div> */}
+                       
 
                         {
                             <SectionTitle title="Popular Activity" subtitle="Feel real adventure and very  close to nature"
