@@ -44,14 +44,14 @@ const RecentNews = () => {
                 >
 
                     {/* <SwiperSlide> */}
-                    {
+                    {/* {
                         recentNews.map(news =>
                             <SwiperSlide key={news.id}>
                                 <SingleRecentNews news={news}></SingleRecentNews>
                             </SwiperSlide>
 
                         )
-                    }
+                    } */}
 
                 </Swiper>
             </div>
