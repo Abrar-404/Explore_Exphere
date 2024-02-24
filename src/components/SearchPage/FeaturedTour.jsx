@@ -18,9 +18,9 @@ const FeaturedTourSearch = () => {
                 </div>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 my-4'>
-                {/* {
+                {
                     items.map(item => <SingleFeaturedTour key={item.id} item={item}></SingleFeaturedTour>)
-                } */}
+                }
             </div>
             <div className="join grid grid-cols-2 w-1/4">
                 <button className="join-item btn btn-outline">Previous page</button>
