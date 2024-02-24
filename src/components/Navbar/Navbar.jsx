@@ -40,7 +40,6 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-          {/* <a className="btn btn-ghost normal-case text-2xl font-bold">Lets Go</a> */}
           <div className="w-[60px] h-[60px] flex items-center">
             <Image src={logo} alt=''></Image>
             <span className="btn btn-ghost normal-case text-xl font-bold">Explore Exphere</span>
