@@ -31,7 +31,7 @@ const Ready = () => {
                     </div>
 
                     {/* 2nd */}
-                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-3 py-5'>
+                    {/* <div className='grid grid-cols-1 lg:grid-cols-2 gap-3 py-5'>
 
                         <div className='   w-[279px] h-[219px] px-8 py-5 border bg-transparent text-white  flex flex-col justify-center items-center rounded-lg hover:transition hover:duration-300 hover:bg-green-600 hover:text-white'>
                             <Image className='h-[70px] w-[70px]' src={deer} alt='deer'></Image>
@@ -50,7 +50,7 @@ const Ready = () => {
                             <h3 className='text-xl font-bold'>Hang Gliding Tours</h3>
                         </div>
 
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
