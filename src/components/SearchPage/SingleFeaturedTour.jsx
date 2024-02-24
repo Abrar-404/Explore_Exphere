@@ -22,8 +22,8 @@ const SingleFeaturedTour = ({ item }) => {
                     <FaStar />
                     <FaStar />
                 </div>
-                <p className='text-xl font-bold'>{title}</p>
-                <p className='inline-flex justify-center items-center gap-2'><FaLocationDot /> {location}</p>
+                {/* <p className='text-xl font-bold'>{title}</p>
+                <p className='inline-flex justify-center items-center gap-2'><FaLocationDot /> {location}</p> */}
                 <br />
                 <p className='inline-flex justify-center items-center gap-2'><FaCircleDollarToSlot /> From ${price}</p>
                 <hr />
