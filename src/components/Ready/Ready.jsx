@@ -18,7 +18,7 @@ const Ready = () => {
                     {/* 1st */}
                     <div className='text-left lg:flex flex-col justify-center gap-8'>
                         <Lottie className='h-[100px] w-[100px]' animationData={play_btn} loop={true} />
-                        <SectionTitle
+                        {/* <SectionTitle
                             title="Are you ready to travel"
                             title_bg="bg-transparent"
                             title_color="text-yellow-500"
@@ -26,7 +26,7 @@ const Ready = () => {
                             subtitle_color="text-white"
                             text='text-left'
                             title_width=''
-                        ></SectionTitle>
+                        ></SectionTitle> */}
                         <Link href={'/searchPage'}><button className='w-[204px] h-[59px] bg-[#5a9b3e] text-white text-center rounded-lg'>Check Availability</button></Link>
                     </div>
 
