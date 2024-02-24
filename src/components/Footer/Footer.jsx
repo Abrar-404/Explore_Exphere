@@ -94,9 +94,9 @@ const Footer = () => {
                 </div>
 
             </footer>
-            {/* <div className='text-center bg-[#101311] text-white p-3'>
+            <div className='text-center bg-[#101311] text-white p-3'>
                 <p>Copyright © 2023 - All right reserved by Explore ephere</p>
-            </div> */}
+            </div>
 
         </>
     );
