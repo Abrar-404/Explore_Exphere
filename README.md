@@ -25,3 +25,4 @@
 - Next JS
 - Typescript
 - JavaScript
+- Firebase
