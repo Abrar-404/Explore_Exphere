@@ -26,6 +26,7 @@
 - Typescript
 - JavaScript
 - Axios
+- DaisyUI
 - React-Router-DOM
 - Firebase
 - Tailwind CSS
