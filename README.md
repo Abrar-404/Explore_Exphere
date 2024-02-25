@@ -27,3 +27,4 @@
 - JavaScript
 - React-Router-DOM
 - Firebase
+- Tailwind CSS
