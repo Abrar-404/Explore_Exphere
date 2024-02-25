@@ -25,6 +25,7 @@
 - Next JS
 - Typescript
 - JavaScript
+- Axios
 - React-Router-DOM
 - Firebase
 - Tailwind CSS
