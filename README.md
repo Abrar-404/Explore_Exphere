@@ -28,3 +28,4 @@
 - React-Router-DOM
 - Firebase
 - Tailwind CSS
+- CSS 3
