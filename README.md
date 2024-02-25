@@ -29,3 +29,4 @@
 - Firebase
 - Tailwind CSS
 - CSS 3
+- Locomotive Scroll
