@@ -23,3 +23,4 @@
 
 # Technologies 🖱🖥
 - Next JS
+- Typescript
