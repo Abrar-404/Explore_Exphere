@@ -17,7 +17,7 @@
 
 - There are a facility to choose the places tourists want to visit and they can see the locations through maps in this website.
 
-- There are a section where the viewers can entertain themselves through amazing scenery videos.
+- There are a section where the viewers can entertain themselves through amazing scenery videos. 
 
 - There is a quick contact facility with the CEO in this website through email and social media links.
 
