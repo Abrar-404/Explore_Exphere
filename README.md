@@ -20,3 +20,5 @@
 - There are a section where the viewers can entertain themselves through amazing scenery videos.
 
 - There is a quick contact facility with the CEO in this website through email and social media links.
+
+# Technologies
