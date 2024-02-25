@@ -21,4 +21,4 @@
 
 - There is a quick contact facility with the CEO in this website through email and social media links.
 
-# Technologies
+# Technologies 🖱🖥
